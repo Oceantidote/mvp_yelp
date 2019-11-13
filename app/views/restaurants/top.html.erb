@@ -1,0 +1,17 @@
+<h1>Here are the five star joints</h1>
+
+<ul>
+  <% @restaurants.each do |r| %>
+    <%= render 'card', restaurant: r %>
+  <% end %>
+</ul>
+
+
+
+
+<!-- card partial -->
+<!-- "_card" -->
+<!-- <div class="card">
+  <h1><%= restaurant.name %></h1>
+  <h2><%= restaurant.chef %></h2>
+</div> -->
